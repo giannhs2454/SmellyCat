@@ -1,0 +1,85 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 0 120px;
+    height: 48px;
+    border-bottom: 1px solid #A0A9BA;
+}
+
+.nav-button {
+    background-color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    color: #555555;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-right: 18px;
+    font-family: 'Manrope';
+    font-weight: bold;
+    transition: color 0.3s, background-color 0.3s;
+  }
+
+  .nav-button:hover{
+    background-color: #ef7878;
+    color: #ffffff;
+  }
+
+
+.navbar-menu-button {
+  display: none;
+  position: absolute;
+  font-size: 25px;
+  cursor: pointer;
+  color: #ef7878;
+  right: 20px;
+}
+
+.navbar-mobile-menu {
+  display: none;
+  flex-direction: column;
+  position: fixed; /* Adjust position as per your layout needs */
+  top: 48px;
+  right: 0;
+  height: 305px;
+  width: 180px; /* Adjust width as per your design */
+  background-color: #333;
+  padding: 1em;
+  border-radius: 0;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+  z-index: 1000; /* Ensure it appears above other content */
+}
+
+.navbar-mobile-menu.show {
+  display: flex;
+  transform: translateX(0);
+}
+
+.navbar-mobile-menu .nav-button {
+  
+  margin: 10px;
+}
+
+/* Responsive styles */
+@media (max-width: 1000px) {
+  .navbar-buttons {
+    display: none;
+  }
+  .navbar-menu-button {
+    display: block;
+  }
+
+  nav{
+    padding:0; 
+    justify-content: center;
+  }
+
+  .navbar-brand{
+    margin-left: 0%;
+  }
+
+  
+}
