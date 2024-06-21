@@ -1,0 +1,251 @@
+.content{
+    background-color: #eff1f4;
+    top: 48px;
+    height: auto;
+    width: 100%;
+}
+
+.container1{
+    margin: 0 120px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row{
+    display: inline-block;
+    margin: 0;
+}
+
+.contact{
+    margin-top: 80px;
+    font-size: 40px;
+    font-weight:1000;
+}
+
+.text{
+    margin-top: 24px;
+    font-size: 18px;
+    font-weight:600;
+}
+
+.row-name{
+    margin-top:40px;
+}
+
+.TextName{
+    display: inline-block;
+    color: #000000;
+    font-size: 14px;
+    font-weight:600;
+}
+
+input{
+    position: relative;
+    height: 40px;
+    border-radius: 5px;
+    border:1px solid rgb(204, 204, 204);
+}
+
+input::placeholder{
+    padding-left: 16px;
+    color: #A0A9BA;
+    font-size: 16px;
+    font-weight: 300px;
+}
+
+#nameInput{
+    width:357px;
+    left: 24px;
+}
+
+#emailInput{
+    width:357px;
+    left: 52px;
+}
+
+.info1{
+    padding: 0;
+    padding-bottom: 42px;
+    width: 476px;
+    border-bottom: 2px solid #D8D8D8;
+}
+
+.info2{
+    padding: 0;
+    margin-top: 40px;
+    height: 500px;
+}
+
+.cpc{
+    height: 67px;
+}
+
+
+.city{
+    display: inline-block;
+}
+
+
+.city, .postal, .address, .message{
+    p{
+    color: #000000;
+    font-size: 14px;
+    font-weight:600;
+    padding-bottom: 8px;
+    margin: 0px;
+    }
+}
+
+
+
+.city,.postal input{
+    width:172px;
+}
+
+.postal{
+    position: relative;
+    display: inline-block;
+    left: 132px;
+}
+
+.address{
+    display: block;
+    padding-top: 28px;
+    margin: 0;
+}
+
+.address input{
+    width:288px;
+}
+
+.message{
+    padding-top: 36px;
+}
+
+.message input{
+    display: block;
+    width: 476px;
+    height:168px
+}
+
+.message input::placeholder{
+    position: absolute;
+    top:8px;
+}
+
+.message p{
+    display: inline-block;
+}
+
+#optional{
+    display: inline-block;
+    position: relative;
+    left: 330px;
+    color: #9784FF;
+    font-size: 14px;
+    font-weight:600;
+}
+
+.terms{
+    display: block;
+    position: relative;
+    padding-top: 26px;
+
+    img{
+        display: inline-block;
+    }
+
+    p{
+        display: inline-block;
+        color: #555555;
+        padding-left:16px;
+        margin: 0;
+        font-size: 14px;
+        font-weight:300;
+    }
+}
+
+
+.send{
+    width:169px;
+    height:48px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: #EF7878;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 46px;
+    border: 0px;
+}
+
+.map{
+    width:515px;
+    height:425px;
+    margin-right: 10px;
+    margin-top: 160px;
+}
+
+
+
+
+
+
+@media (max-width: 1000px) {
+    .container1{
+        margin: 0 30px;
+        padding: 0px;
+        flex-direction: column;
+    }
+
+    .row{
+        display: block;
+    }
+
+
+    .TextName, .city, .postal, .address{
+        position: relative;
+        display: block; 
+        left:0px;
+        input{
+            width:250px;
+        }
+    }
+    #nameInput, #emailInput{
+        width:250px;
+        left:0px;
+    }
+
+    .postal{
+        padding-top: 32px;
+    }
+
+    .address{
+        padding-top: 130px;
+        input{
+            width:250px;
+        }
+    }
+
+    .message input{
+        display: block;
+        width: 250px;
+        height:168px
+    }
+
+    #optional{
+        display: inline-block;
+        position: relative;
+        left: 105px;
+        color: #9784FF;
+        font-size: 14px;
+        font-weight:600;
+    }
+
+    .map{
+        padding-top: 80px;
+    }
+   
+    
+   
+}
