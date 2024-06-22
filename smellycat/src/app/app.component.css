@@ -232,11 +232,20 @@ input::placeholder{
 }
 
 
-
+@media (max-width: 1125px) {
+    #map{
+        width: 370px;
+        margin-left: 20px;
+    }
+}
 
 
 
 @media (max-width: 1000px) {
+
+    .content{
+        height:2000px;
+    }
     .container1{
         margin: 0 30px;
         padding: 0px;
@@ -245,8 +254,16 @@ input::placeholder{
 
     .row{
         display: block;
+        text-align: center;
     }
 
+    .info1, .info2 {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
     .TextName, .city, .postal, .address{
         position: relative;
@@ -256,6 +273,11 @@ input::placeholder{
             width:250px;
         }
     }
+
+    #messageInput{
+        width:250px;
+    }
+
     #nameInput, #emailInput{
         width:250px;
         left:0px;
@@ -272,11 +294,7 @@ input::placeholder{
         }
     }
 
-    .message input{
-        display: block;
-        width: 250px;
-        height:168px
-    }
+   
 
     #optional{
         display: inline-block;
@@ -287,10 +305,31 @@ input::placeholder{
         font-weight:600;
     }
 
-    .map{
-        padding-top: 80px;
+    #map{
+        margin-left: 5px;
+        margin-top: 200px;
+        
     }
    
+
+    .headquarters, .infoAddress, .infoContact{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .map-content{
+        display: flex;
+        justify-content: center;
+    }
+
+    .message input{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
     
+    .cpc{
+        text-align: center;
+    }
    
 }

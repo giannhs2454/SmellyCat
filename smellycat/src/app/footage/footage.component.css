@@ -49,3 +49,54 @@
     margin: 0;
     margin-top: 35px;
 }
+
+
+
+
+@media (max-width: 1000px) {
+    .content {
+        padding: 0 10px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Center align content horizontally */
+        align-items: center; /* Center align content vertically */
+    }
+
+    .footage {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center align items horizontally */
+        text-align: center; /* Center align text and inline elements */
+        width: 100%;
+        height:100vh;
+        margin-bottom: 20px; /* Add margin to create space below .footage */
+        gap:10px;
+    }
+
+    .footage img {
+        height: 35px;
+        width: 157px;
+    }
+
+    .logos {
+        display: flex;
+        justify-content: center; /* Center align items horizontally */
+        margin-top: 10px; /* Add margin to create space between .info and .logos */
+    }
+
+    .logos img {
+        width: 14px;
+        height: 14px;
+        margin: 0 5px; /* Adjust margin as needed */
+    }
+
+    .copyright {
+        text-align: center; /* Center align text */
+        p{
+            margin:15px 0;
+        }
+    }
+}
+
+
