@@ -25,4 +25,11 @@ export class AppComponent implements OnInit {
     // Use this.map instead of map here
     var marker = L.marker([40.638435, 22.947009]).addTo(this.map);
   }
+
+  /*terms*/
+  showAlternateImage: boolean = false;
+
+  toggleImage(): void {
+    this.showAlternateImage = !this.showAlternateImage;
+  }
 }

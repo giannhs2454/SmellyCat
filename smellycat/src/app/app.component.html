@@ -38,11 +38,12 @@
                 </div>
                 <div class="message">
                     <p>Your Message</p>
-                    <p id="optional">Optional</p>
+                    <a id="optional" href="">Optional</a>
                     <input type="text" id="messageInput" placeholder="Type your message">
                 </div>
                 <div class="terms">
-                    <img src='../assets/box.png' alt="Logo">
+                    <img src='../assets/box.png' alt="Logo" *ngIf="!showAlternateImage" (click)="toggleImage()">
+                    <img src='../assets/box1.png' alt="Logo" *ngIf="showAlternateImage" (click)="toggleImage()">
                     <p>I agree with the Terms & Conditions</p>
                 </div>
                 <button class="send">Send!</button>

@@ -37,6 +37,10 @@
     height: 14px;
 }
 
+.instagram{
+    height: 16px !important;
+}
+
 .copyright p{
     color: #E1E4EA;
     font-size: 12px;

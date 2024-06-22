@@ -31,6 +31,12 @@ nav {
     color: #ffffff;
   }
 
+  .nav-button:active{
+    background-color: #f13232;
+    color: #ffffff;
+  }
+
+
 
 .navbar-menu-button {
   display: none;
