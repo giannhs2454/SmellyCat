@@ -179,7 +179,7 @@ input::placeholder{
     border: 0px;
 }
 
-.map{
+#map{
     width:515px;
     height:425px;
     margin-top: 160px;
