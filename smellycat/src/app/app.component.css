@@ -233,7 +233,7 @@ input::placeholder{
 }
 
 
-@media (max-width: 1125px) {
+@media (max-width: 1150px) {
     #map{
         width: 370px;
         margin-left: 20px;
@@ -242,7 +242,7 @@ input::placeholder{
 
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1030px) {
     .content {
         height: 2000px;
     }
