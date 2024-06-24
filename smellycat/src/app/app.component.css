@@ -326,4 +326,11 @@ input::placeholder{
     .cpc {
         text-align: center;
     }
+
+    .send{
+        display: flex;
+        padding:20px 0px;
+        justify-content: center;
+        align-items: center;
+    }
 }
