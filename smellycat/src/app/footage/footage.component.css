@@ -59,18 +59,18 @@
         height: 250px;
         display: flex;
         flex-direction: column;
-        justify-content: center; /* Center align content horizontally */
-        align-items: center; /* Center align content vertically */
+        justify-content: center;
+        align-items: center;
     }
 
     .footage {
         display: flex;
         flex-direction: column;
-        align-items: center; /* Center align items horizontally */
-        text-align: center; /* Center align text and inline elements */
+        align-items: center; 
+        text-align: center;
         width: 100%;
         height:100vh;
-        margin-bottom: 20px; /* Add margin to create space below .footage */
+        margin-bottom: 20px; 
         gap:10px;
     }
 
@@ -81,18 +81,18 @@
 
     .logos {
         display: flex;
-        justify-content: center; /* Center align items horizontally */
-        margin-top: 10px; /* Add margin to create space between .info and .logos */
+        justify-content: center; 
+        margin-top: 10px; 
     }
 
     .logos img {
         width: 14px;
         height: 14px;
-        margin: 0 5px; /* Adjust margin as needed */
+        margin: 0 5px;
     }
 
     .copyright {
-        text-align: center; /* Center align text */
+        text-align: center; 
         p{
             margin:15px 0;
         }

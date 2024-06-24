@@ -1,3 +1,4 @@
+/* General styles */
 nav {
     display: flex;
     justify-content: space-between;
@@ -8,7 +9,7 @@ nav {
     border-bottom: 1px solid #A0A9BA;
 }
 
-.navbar-brand{
+.navbar-brand {
   padding: 0;
 }
 
@@ -24,19 +25,17 @@ nav {
     font-family: 'Manrope';
     font-weight: bold;
     transition: color 0.3s, background-color 0.3s;
-  }
+}
 
-  .nav-button:hover{
+.nav-button:hover {
     background-color: #ef7878;
     color: #ffffff;
-  }
+}
 
-  .nav-button:active{
+.nav-button:active {
     background-color: #f13232;
     color: #ffffff;
-  }
-
-
+}
 
 .navbar-menu-button {
   display: none;
@@ -70,7 +69,6 @@ nav {
 }
 
 .navbar-mobile-menu .nav-button {
-  
   margin: 10px;
 }
 
@@ -83,14 +81,22 @@ nav {
     display: block;
   }
 
-  nav{
-    padding:0; 
+  nav {
+    padding: 0; 
     justify-content: center;
   }
 
-  .navbar-brand{
+  .navbar-brand {
     margin-left: 0%;
   }
+}
 
-  
+@media (max-height: 400px) {
+  .navbar-mobile-menu {
+    height: 300px;
+  }
+
+  .navbar-mobile-menu .nav-button {
+    margin: 5px;  
+  }
 }

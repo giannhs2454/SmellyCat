@@ -99,6 +99,7 @@ input::placeholder{
 
 
 
+
 .city,.postal input{
     width:172px;
 }
@@ -141,7 +142,7 @@ input::placeholder{
 #optional{
     display: inline-block;
     position: relative;
-    left: 330px;
+    margin-left: 330px;
     color: #9784FF;
     font-size: 14px;
     font-weight:600;
@@ -242,21 +243,18 @@ input::placeholder{
 
 
 @media (max-width: 1000px) {
-
-    .content{
-        height:2000px;
+    .content {
+        height: 2000px;
     }
-    .container1{
+    .container1 {
         margin: 0 30px;
         padding: 0px;
         flex-direction: column;
     }
-
-    .row{
+    .row {
         display: block;
         text-align: center;
     }
-
     .info1, .info2 {
         width: 100%;
         text-align: center;
@@ -264,72 +262,68 @@ input::placeholder{
         flex-direction: column;
         align-items: center;
     }
-
-    .TextName, .city, .postal, .address{
+    .TextName, .city, .postal, .address {
         position: relative;
         display: block; 
-        left:0px;
-        input{
-            width:250px;
+        left: 0px;
+        text-align: center; 
+        input {
+            width: 250px;
+            display: block;
+            margin: 0 auto; 
         }
     }
-
-    #messageInput{
+    .city p {
         width:250px;
+        justify-content: center;
+        margin: 0; 
     }
-
-    #nameInput, #emailInput{
-        width:250px;
-        left:0px;
+    #messageInput {
+        width: 250px;
     }
-
-    .postal{
+    #nameInput, #emailInput {
+        width: 250px;
+        left: 0px;
+    }
+    .postal {
         padding-top: 32px;
     }
-
-    .address{
+    .address {
         padding-top: 130px;
-        input{
-            width:250px;
+        input {
+            width: 250px;
         }
     }
-
-   
-
-    #optional{
+    #optional {
         display: inline-block;
-        position: relative;
-        left: 105px;
-        color: #9784FF;
-        font-size: 14px;
-        font-weight:600;
+        margin-left: -60px;
     }
 
-    #map{
+
+    #map {
         margin-left: 5px;
         margin-top: 200px;
-        
     }
-   
-
-    .headquarters, .infoAddress, .infoContact{
+    .headquarters, .infoAddress, .infoContact {
         justify-content: center;
         text-align: center;
     }
-
-    .map-content{
+    .map-content {
         display: flex;
         justify-content: center;
     }
-
-    .message input{
+    .message input {
         display: flex;
         text-align: center;
         justify-content: center;
     }
     
-    .cpc{
+    .message p{
+        width: 250px;
+        margin: 0;
+    }
+
+    .cpc {
         text-align: center;
     }
-   
 }
